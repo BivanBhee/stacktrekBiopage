@@ -1,0 +1,98 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 5;
+    padding: 5;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .profile-picture img {
+    border-radius: 50%;
+    width: 180px;
+    height: 250px;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .short-bio {
+    padding-inline-start: 40px;
+  }
+  
+  .short-bio h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .short-bio p {
+    font-size: 16px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .nav a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 20px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .nav a:hover {
+    color: #3498db;
+  }
+  
+  .nav img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .social-media a:hover {
+    color: #3498db;
+  }
+  
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .footer p {
+    font-size: 5px;
+  }
+  

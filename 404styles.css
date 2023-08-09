@@ -1,0 +1,72 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Basic styling for the error page */
+
+
+/* Basic styling for the error page */
+.error-container {
+  /* ... your existing styles ... */
+  
+  /* Add background image */
+  background-image: url('404background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+  
+  .error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .error-container img {
+    max-width: 300px;
+  }
+  
+  .error-container h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .error-container p {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .return-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e5ff0009;
+    color: #cedb18;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .return-home:hover {
+    background-color: #0056b3;
+    
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
